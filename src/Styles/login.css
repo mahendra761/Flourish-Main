@@ -1,0 +1,73 @@
+.login-main-contain{
+    background-image: url('/src/assets/hanuman\ ji.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.login-con{
+    position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: column;
+   background-color: #FCF9FF;
+   border-radius: 5px;
+   padding: 40px 30px;
+   border-radius: 40px;
+    align-items: center;
+    justify-content: center;
+}
+.login-input1{
+    width: 439px;
+    display: flex;
+    align-items: center;
+    height: 58px;
+    margin-top: 15px;
+    /* border: 1px solid black; */
+    border-radius: 12px;
+    background-color:#F0F0F0;
+}
+
+.login-input1>input{
+    outline: none; 
+    border: none;
+    /* border: 1px solid black; */
+}
+.login-input1>input[type="email"]{
+    width: 420px;
+    padding-left: 10px;
+    height: 45px;
+    font-size: 14px;
+    background-color:#F0F0F0;
+
+}
+.login-password-la {
+    margin-top: 20px; 
+}
+.login-input1>input[type="password"]{
+    width: 420px;
+    height: 45px;
+    background-color:#F0F0F0;
+    font-size: 14px;
+
+    padding-left: 10px;
+
+}
+.login-btn{
+    width: 439px;
+    height: 58px;
+    border-radius: 12px;
+    background: #686628;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-btn>a{
+    text-decoration: none;
+  color: #fff;
+
+}
