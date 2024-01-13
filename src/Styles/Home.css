@@ -1,0 +1,8 @@
+.Home-main{
+    height: 100vh;
+    width: 300px;
+    background-color: orange;
+    position: fixed;
+    left: 0;
+    top: 0;
+}

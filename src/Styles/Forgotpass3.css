@@ -1,0 +1,99 @@
+.forgot3-main-content{
+    background-image: url('/src/assets/hanuman\ ji.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.forgot3-con{
+    position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: column;
+   background-color: #FCF9FF;
+   border-radius: 5px;
+   padding: 20px;
+   border-radius: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+.forgot-3{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    line-height: 0;
+    margin-top: 10px;
+    /* margin-left: 15px; */
+    border-radius: 10px;
+}
+
+.forgot-3{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    margin-top: 15px;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    background-color:#F0F0F0;
+}
+
+.forgot-3>input{
+    outline: none; 
+    border: none;
+    /* border: 1px solid black; */
+}
+.forgot-3>input[type="password"]{
+    width: 280px;
+    padding-left: 10px;
+    height: 40px;
+    font-size: 14px;
+    border-radius: 10px;
+    background-color:#F0F0F0;
+
+}
+.forgot-3l{
+    margin-top: 15px;
+}
+.forgot-3l>label{
+    margin-left: 7px;
+}
+.forgot3-btn{
+    width: 300px;
+    height: 45px;
+    border-radius: 12px;
+    background: #686628;
+    margin-top: 6%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+     align-items: center;
+}
+
+.forgot3-btn>a{
+    text-decoration: none;
+  color: #fff;
+}
+.forgot3-title{
+    line-height: 0px;
+    display: flex;
+    width: 95%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 10px;
+}
+.forgot3-title>h2 {
+    font-size: 23px;
+}
+.forgot3-title>p{
+    font-size: 14px;
+}
