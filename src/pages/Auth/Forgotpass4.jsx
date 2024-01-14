@@ -10,16 +10,16 @@ const Forgotpass4 = () => {
     <div>
 
       <section>
-        <div className="login-main-contain">
-          <div className="login-con">
+        <div className="Forgot4-main-contain">
+          <div className="Forgot4-con">
            
-            <div className="login-title">
-            <div className="login-title1">
+            <div className="forgot4-title">
+            <div className="forgot4-title1">
               <h2  className="no-margin">Password Changed
               Successfully</h2>
               <p>Lorem Ipsum is simply dummy text of the is simply dummy text of the that can people can do all</p>
            
-              <div className="login-btn">
+              <div className="forgot4-btn">
                 <a href="">SIGN IN NOW</a>
             </div>
             </div>

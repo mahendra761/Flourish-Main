@@ -1,10 +1,36 @@
-.login-con {
+.Forgot4-main-contain {
+    background-image: url('/src/assets/hanuman\ ji.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.Forgot4-con {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    background-color: #FCF9FF;
+    border-radius: 5px;
+    padding: 20px;
+    border-radius: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.Forgot4-con {
     background-color: rgb(172, 172, 172);
     padding: 40px 0px 10px 0px;
     width: 400px;
 }
 
-.login-title {
+.forgot4-title {
     height: 400px;
     width: 100%;
     background-color: #fff;
@@ -16,7 +42,7 @@
     justify-content: flex-end;
 }
 
-.login-title1 {
+.forgot4-title1 {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -26,18 +52,29 @@
 
 }
 
-.login-title1>h2 {
+.forgot4-title1>h2 {
     font-size: 30px;
 }
 
-.login-title1>p {
+.forgot4-title1>p {
     width: 90%;
     color: rgb(140, 140, 140);
 }
 
-.login-btn {
-    width: 100%;
-
+.forgot4-btn {
+    width: 300px;
+    height: 45px;
+    border-radius: 12px;
+    background: #686628;
+    margin-top: 6%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+     align-items: center;
+}
+.forgot4-btn >a{
+    text-decoration: none;
+  color: #fff;
 }
 
 .login-btn {
